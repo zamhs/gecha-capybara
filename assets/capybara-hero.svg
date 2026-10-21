@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="900" viewBox="0 0 1000 900" role="img" aria-labelledby="title desc">
+  <title id="title">Capibara con mantita y una taza de té para Gecha</title>
+  <desc id="desc">Ilustración editorial tierna de una capibara color caramelo, arropada con una mantita salvia, sosteniendo una taza de té, rodeada de florecitas, corazones y un termómetro.</desc>
+  <defs>
+    <linearGradient id="ambient" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF8EB"/><stop offset=".58" stop-color="#F9E9D8"/><stop offset="1" stop-color="#F5D8C8"/></linearGradient>
+    <linearGradient id="fur" x1=".12" y1="0" x2=".91" y2="1"><stop stop-color="#D8A679"/><stop offset=".48" stop-color="#BF855C"/><stop offset="1" stop-color="#9D674B"/></linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E0B086"/><stop offset=".58" stop-color="#C68E67"/><stop offset="1" stop-color="#AD7455"/></linearGradient>
+    <linearGradient id="snout" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#EAC29A"/><stop offset="1" stop-color="#D6A17A"/></linearGradient>
+    <linearGradient id="sage" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C7D7B7"/><stop offset=".48" stop-color="#A9C19F"/><stop offset="1" stop-color="#86A68B"/></linearGradient>
+    <linearGradient id="cup" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#FFFCF4"/><stop offset="1" stop-color="#F3DCCB"/></linearGradient>
+    <radialGradient id="blush"><stop stop-color="#D77E74" stop-opacity=".56"/><stop offset="1" stop-color="#D77E74" stop-opacity="0"/></radialGradient>
+    <pattern id="weave" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M0 15H30 M15 0V30" stroke="#F3F2D9" stroke-opacity=".12" stroke-width="2"/><circle cx="15" cy="15" r="1.7" fill="#F7EFD4" opacity=".5"/></pattern>
+    <filter id="shadow" x="-35%" y="-50%" width="170%" height="220%"><feGaussianBlur stdDeviation="17"/></filter>
+    <filter id="soft" x="-25%" y="-25%" width="150%" height="150%"><feGaussianBlur stdDeviation="5"/></filter>
+    <g id="daisy"><path d="M0-20C9-22 13-11 7-4C18-12 27-2 18 7C10 15 5 10 3 8C8 24-4 28-10 18C-15 10-8 6-6 4C-21 10-26-3-16-10C-8-15-3-9-2-6C-9-21-1-25 0-20Z" fill="#FFF9E7"/><circle r="6.8" fill="#E9B57C"/><circle cx="-1.5" cy="-2" r="2" fill="#FFDFC0"/></g>
+    <g id="sparkle"><path d="M0-17C1-4 4-1 17 0C4 1 1 4 0 17C-1 4-4 1-17 0C-4-1-1-4 0-17Z" fill="#E7BBA0"/></g>
+    <g id="heart"><path d="M0 10C-29-7-12-23 0-10C12-23 29-7 0 10Z" fill="#E9A79B"/></g>
+  </defs>
+  <style>
+    /* Tiny, independent layers: animated even when embedded through an img tag. */
+    .floating-hearts, .tea-steam { transform-box: fill-box; transform-origin: center; }
+    @media (prefers-reduced-motion: no-preference) {
+      .floating-hearts { animation: drift 5.4s ease-in-out infinite alternate; }
+      .tea-steam { animation: breathe 4.2s ease-in-out infinite alternate; }
+    }
+    @keyframes drift { from { transform: translateY(0); } to { transform: translateY(-9px); } }
+    @keyframes breathe { from { opacity: .58; transform: translateY(4px); } to { opacity: 1; transform: translateY(-5px); } }
+  </style>
+
+  <!-- Paper-cut cloud, floating motifs and a soft grounding shadow. -->
+  <g id="hero-backdrop">
+  <path d="M151 450C129 327 215 221 329 180C425 137 491 161 571 154C702 144 824 224 842 349C861 433 908 477 867 587C829 700 704 774 562 775C415 777 250 739 184 649C137 584 164 518 151 450Z" fill="url(#ambient)"/>
+  <path d="M174 432C160 312 250 222 341 192C439 160 523 171 600 170" fill="none" stroke="#FFFDF3" stroke-width="11" stroke-linecap="round" opacity=".47"/>
+  <ellipse cx="518" cy="769" rx="324" ry="36" fill="#805A45" opacity=".13" filter="url(#shadow)"/>
+  <ellipse cx="517" cy="760" rx="271" ry="16" fill="#F2D3B9" opacity=".76"/>
+  </g>
+
+  <!-- Meadow details. -->
+  <g id="hero-botanical-details">
+  <path d="M164 739C154 701 165 678 178 658M172 706C152 693 135 697 126 702M173 710C191 693 205 694 215 697" fill="none" stroke="#829D80" stroke-width="6" stroke-linecap="round"/>
+  <use xlink:href="#daisy" transform="translate(178 654) scale(1.26)"/>
+  <use xlink:href="#daisy" transform="translate(141 711) scale(.55)"/>
+  <path d="M804 741C815 705 804 669 796 648M803 697C827 676 841 676 854 680M804 718C787 703 777 704 770 706" fill="none" stroke="#8EA88B" stroke-width="6" stroke-linecap="round"/>
+  <use xlink:href="#daisy" transform="translate(796 647) scale(1.04)"/>
+  <use xlink:href="#daisy" transform="translate(848 679) scale(.68)"/>
+  <path d="M234 278C224 250 223 224 231 203M232 246C216 230 200 232 191 237" fill="none" stroke="#98AB8A" stroke-width="5" stroke-linecap="round"/>
+  <use xlink:href="#daisy" transform="translate(233 201) scale(.66)"/>
+  <g class="floating-hearts">
+    <use xlink:href="#heart" transform="translate(772 252) rotate(15) scale(1.65)"/>
+    <use xlink:href="#heart" transform="translate(797 205) rotate(-12) scale(.75)"/>
+  </g>
+  <use xlink:href="#sparkle" transform="translate(189 368) scale(.68)"/>
+  <use xlink:href="#sparkle" transform="translate(836 384) scale(.85)"/>
+  <circle cx="246" cy="365" r="4.5" fill="#E6AA9A"/>
+  <circle cx="766" cy="312" r="4" fill="#C1A07B"/>
+  <circle cx="835" cy="557" r="5.5" fill="#DEBD9B"/>
+  </g>
+
+  <!-- Feet, tail and seated body. -->
+  <g id="hero-capybara">
+  <path d="M323 676C291 685 275 717 295 741C313 760 381 764 416 744L427 704Z" fill="#A06B4D"/>
+  <path d="M621 684C644 712 660 737 702 741C745 745 760 715 732 687Z" fill="#A36B4B"/>
+  <path d="M292 727L302 736M321 734L327 743M347 736L354 743M675 731L681 739M701 728L706 737M726 718L733 725" stroke="#754E3F" stroke-width="5" stroke-linecap="round"/>
+  <path d="M281 640C265 564 302 462 384 431C474 395 593 416 669 476C746 536 764 656 711 716C658 782 407 776 321 732C294 717 287 679 281 640Z" fill="url(#fur)" stroke="#9C6B50" stroke-width="4"/>
+  <path d="M312 630C309 558 350 493 395 474" fill="none" stroke="#EAC09B" stroke-opacity=".42" stroke-width="17" stroke-linecap="round"/>
+  <path d="M686 571C716 623 711 670 684 705" fill="none" stroke="#8E5E46" stroke-opacity=".17" stroke-width="18" stroke-linecap="round"/>
+
+  <!-- Cozy blanket falling over the lower body. -->
+  <path d="M282 553C373 582 502 566 575 545C640 525 687 548 719 590C748 629 757 680 742 711C722 740 677 742 643 731C582 754 541 747 487 734C428 761 365 753 323 727C288 705 269 617 282 553Z" fill="url(#sage)" stroke="#78977F" stroke-width="5"/>
+  <path d="M282 553C373 582 502 566 575 545C640 525 687 548 719 590" fill="none" stroke="#E7EACF" stroke-width="13" stroke-linecap="round"/>
+  <path d="M282 573C377 605 495 584 584 567C652 553 679 573 706 603" fill="none" stroke="#779B85" stroke-width="2.5" stroke-dasharray="3 12" stroke-linecap="round"/>
+  <path d="M282 553C373 582 502 566 575 545C640 525 687 548 719 590C748 629 757 680 742 711C722 740 677 742 643 731C582 754 541 747 487 734C428 761 365 753 323 727C288 705 269 617 282 553Z" fill="url(#weave)" opacity=".8"/>
+  <path d="M411 603C436 658 438 702 417 736M546 592C541 651 553 701 571 737M654 609C669 651 668 701 644 731" fill="none" stroke="#73987F" stroke-width="7" opacity=".4" stroke-linecap="round"/>
+  <path d="M327 718C374 746 433 748 484 721C540 739 597 738 638 715C691 734 720 719 739 700" fill="none" stroke="#F1E8D0" stroke-width="7" stroke-linecap="round" opacity=".72"/>
+  <use xlink:href="#daisy" transform="translate(367 649) scale(.66)"/>
+  <use xlink:href="#daisy" transform="translate(505 663) scale(.57)"/>
+  <use xlink:href="#daisy" transform="translate(616 619) scale(.43)"/>
+  <use xlink:href="#daisy" transform="translate(695 689) scale(.41)"/>
+  <path d="M342 675C355 666 360 660 360 652M472 693C483 686 490 676 492 667M612 650C611 640 616 636 618 632" fill="none" stroke="#F3F0D6" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Small thermometer tucked safely in the blanket pocket. -->
+  <g transform="translate(336 570) rotate(-18)">
+    <rect x="-11" y="-74" width="22" height="106" rx="11" fill="#FFF8EF" stroke="#9A7862" stroke-width="3"/>
+    <path d="M0-53V10" stroke="#E59A87" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="0" cy="18" r="12" fill="#E59A87" stroke="#FFF8EF" stroke-width="4"/>
+    <path d="M-4-51H3M-4-36H3M-4-21H3" stroke="#AE9686" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-17-76C-10-89 10-89 17-76" fill="none" stroke="#DFBDA1" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <path d="M302 585C321 598 358 600 376 584L369 621C361 635 324 635 313 618Z" fill="#86A991" stroke="#EAE8D1" stroke-width="3"/>
+  <path d="M323 608H355" stroke="#F3E7D8" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Rounded capybara head and asymmetric ears. -->
+  <path d="M406 282C395 255 404 225 430 220C459 215 477 247 463 277Z" fill="#AF7957" stroke="#8D5E4B" stroke-width="4"/>
+  <path d="M418 268C417 245 427 236 438 239C453 244 449 264 447 270Z" fill="#D99488"/>
+  <path d="M573 270C568 236 585 218 605 226C627 234 627 268 604 285Z" fill="#B8815C" stroke="#8D604A" stroke-width="4"/>
+  <path d="M586 263C584 242 595 237 603 246C610 252 608 262 604 269Z" fill="#DA998E"/>
+  <path d="M365 414C343 346 363 290 426 257C478 229 561 237 628 275C671 299 690 340 716 365C747 392 788 390 815 415C842 441 831 489 792 509C752 532 677 530 615 521C538 510 472 526 424 497C392 477 378 451 365 414Z" fill="url(#face)" stroke="#9D6C50" stroke-width="5"/>
+  <path d="M381 377C375 311 420 274 474 265C501 260 531 266 550 274" stroke="#F0C6A1" stroke-opacity=".65" stroke-width="15" stroke-linecap="round" fill="none"/>
+  <path d="M526 418C570 399 617 403 668 411C723 421 765 412 798 429C816 437 821 464 806 478C773 515 699 513 635 507C594 502 551 501 526 477C507 456 506 435 526 418Z" fill="url(#snout)" opacity=".88"/>
+  <path d="M593 404C604 402 614 395 618 383" fill="none" stroke="#6E4D3D" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="622" cy="374" r="4" fill="#664839" opacity=".3"/>
+  <ellipse cx="790" cy="434" rx="20" ry="15" transform="rotate(-13 790 434)" fill="#795247"/>
+  <ellipse cx="785" cy="428" rx="7" ry="4" transform="rotate(-15 785 428)" fill="#A57863" opacity=".63"/>
+  <path d="M781 452C766 471 744 474 727 463" fill="none" stroke="#865849" stroke-width="5" stroke-linecap="round"/>
+  <path d="M727 463C727 469 732 474 738 474" fill="none" stroke="#865849" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="529" cy="448" rx="44" ry="30" fill="url(#blush)"/>
+  <ellipse cx="687" cy="462" rx="37" ry="20" fill="url(#blush)" opacity=".52"/>
+  <circle cx="552" cy="436" r="3.2" fill="#AA7356" opacity=".6"/>
+  <circle cx="541" cy="450" r="2.3" fill="#AA7356" opacity=".6"/>
+  <circle cx="564" cy="453" r="2.7" fill="#AA7356" opacity=".6"/>
+  <path d="M679 414C694 414 699 420 705 426M664 432C670 436 678 436 684 433" fill="none" stroke="#F5D6BA" stroke-width="4" stroke-linecap="round" opacity=".62"/>
+  <path d="M418 325C418 315 425 306 438 304M583 300C593 295 605 298 615 305" fill="none" stroke="#93674F" stroke-width="5" stroke-linecap="round" opacity=".32"/>
+
+  <!-- The steaming tea cup floats in front of the blanket and paws. -->
+  <g class="tea-steam"><path d="M656 564C645 546 650 528 660 518M682 555C671 537 687 521 684 506M708 558C701 545 714 535 710 519" fill="none" stroke="#EDD6BC" stroke-width="7" stroke-linecap="round" opacity=".82"/></g>
+  <ellipse cx="688" cy="689" rx="97" ry="16" fill="#8E7158" opacity=".17" filter="url(#soft)"/>
+  <path d="M745 585C786 570 805 592 798 620C794 647 772 657 745 641" fill="none" stroke="#F7EADC" stroke-width="21" stroke-linecap="round"/>
+  <path d="M745 585C786 570 805 592 798 620C794 647 772 657 745 641" fill="none" stroke="#BF9279" stroke-width="4" stroke-linecap="round"/>
+  <path d="M618 579H754L745 665C742 691 632 696 626 666Z" fill="url(#cup)" stroke="#B88870" stroke-width="4"/>
+  <ellipse cx="686" cy="581" rx="69" ry="15" fill="#FDF6E9" stroke="#B88870" stroke-width="4"/>
+  <ellipse cx="686" cy="581" rx="59" ry="9" fill="#C99768"/>
+  <path d="M647 616C660 611 666 608 679 613C692 618 699 630 686 637C671 642 657 627 647 616Z" fill="#DDA296" opacity=".83"/>
+  <path d="M679 614C690 598 706 610 703 618C702 624 694 632 686 637" fill="#DDA296"/>
+  <path d="M649 658C675 668 716 667 733 653" fill="none" stroke="#FFFDF6" stroke-width="6" stroke-linecap="round" opacity=".75"/>
+  <path d="M606 599C584 589 568 602 573 623C579 649 608 650 625 634" fill="#BD845E" stroke="#96684F" stroke-width="4"/>
+  <path d="M605 610L613 615M597 621L608 628" fill="none" stroke="#E9B999" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Tiny note-shaped decoration in the foreground. -->
+  <g transform="translate(814 620) rotate(15)">
+    <path d="M0 7C-11-2-5-10 0-5C5-10 11-2 0 7Z" fill="#F3BAA9"/>
+    <path d="M2 15L4 25" stroke="#D9AB96" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  </g>
+</svg>

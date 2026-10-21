@@ -1,0 +1,523 @@
+@media (max-width: 1040px) {
+  .site-shell {
+    width: min(100% - 48px, 980px);
+  }
+
+  .topbar {
+    min-height: 94px;
+  }
+
+  .hero {
+    min-height: 525px;
+    gap: 22px;
+    padding: 52px 45px;
+  }
+
+  .hero-title {
+    font-size: clamp(3.1rem, 5.8vw, 4.7rem);
+  }
+
+  .hero-art {
+    min-height: 335px;
+  }
+
+  .step-card {
+    padding: 29px 25px;
+  }
+
+  .steps-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .steps-section .section-header {
+    gap: 15px;
+  }
+
+  .section-flower {
+    margin-right: 4px;
+  }
+}
+
+@media (max-width: 800px) {
+  .topbar nav,
+  .topbar .nav-links {
+    gap: 13px;
+  }
+
+  .top-links .tiny-label {
+    display: none;
+  }
+
+  .top-links {
+    gap: 10px;
+  }
+
+  .hero {
+    grid-template-columns: minmax(0, 1fr);
+    min-height: 0;
+    gap: 12px;
+    padding: 55px 45px 28px;
+    text-align: center;
+  }
+
+  .hero-copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-title {
+    max-width: 620px;
+    margin-top: 20px;
+    font-size: clamp(3.2rem, 8vw, 5rem);
+  }
+
+  .hero .lead {
+    max-width: 520px;
+  }
+
+  .hero-actions,
+  .hero .button-row,
+  .hero .actions {
+    justify-content: center;
+  }
+
+  .hero-footnote {
+    margin-top: 27px;
+  }
+
+  .hero-art {
+    width: min(100%, 450px);
+    min-height: 320px;
+    max-height: 450px;
+    margin-inline: auto;
+  }
+
+  .hero-art > :where(img, svg, picture, figure),
+  .hero-art picture img,
+  .hero-art figure img {
+    max-height: 380px;
+  }
+
+  .steps-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .step-card:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+  }
+
+  .care-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .care-card:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+  }
+
+  .routine-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+
+  .routine-copy {
+    align-items: center;
+    text-align: center;
+  }
+
+  .routine-copy .section-title {
+    max-width: 590px;
+  }
+
+  .routine-copy .section-subtitle {
+    max-width: 570px;
+  }
+
+  .mini-capy {
+    width: 180px;
+    height: 160px;
+    margin-top: 14px;
+  }
+
+  .checklist-panel {
+    width: min(100%, 670px);
+    margin-inline: auto;
+  }
+
+  .care-card {
+    padding: 26px 24px;
+  }
+}
+
+@media (max-width: 620px) {
+  html {
+    scroll-padding-top: 70px;
+  }
+
+  body {
+    font-size: 15px;
+  }
+
+  .site-shell {
+    width: calc(100% - 32px);
+  }
+
+  .topbar {
+    min-height: 76px;
+    gap: 10px;
+  }
+
+  .topbar > a:first-child,
+  .topbar .brand,
+  .topbar .logo {
+    gap: 8px;
+    font-size: 0.91rem;
+  }
+
+  .topbar .brand-icon,
+  .topbar .logo-icon {
+    width: 37px;
+    height: 37px;
+    border-radius: 13px;
+    font-size: 1.3rem;
+  }
+
+  .topbar nav,
+  .topbar .nav-links {
+    gap: 12px;
+  }
+
+  .topbar nav a,
+  .topbar .nav-links a {
+    font-size: 0.76rem;
+  }
+
+  .topbar .pill {
+    min-height: 30px;
+    padding: 6px 10px;
+    font-size: 0.67rem;
+  }
+
+  .nav-link {
+    gap: 6px;
+    padding: 9px 12px;
+    font-size: 0.75rem;
+  }
+
+  .hero {
+    padding: 40px 25px 24px;
+    border-radius: 28px;
+  }
+
+  .hero::before {
+    right: -260px;
+    bottom: -335px;
+  }
+
+  .hero::after {
+    top: -145px;
+    left: -30px;
+  }
+
+  .hero-title {
+    margin: 16px 0 17px;
+    font-size: clamp(2.65rem, 10.3vw, 4.15rem);
+    line-height: 1.09;
+    letter-spacing: -0.06em;
+  }
+
+  .lead {
+    font-size: 0.98rem;
+    line-height: 1.75;
+  }
+
+  .hero-actions,
+  .hero .button-row,
+  .hero .actions {
+    gap: 11px;
+    margin-top: 25px;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    min-height: 51px;
+    padding: 13px 19px;
+    border-radius: 15px;
+    font-size: 0.87rem;
+  }
+
+  .hero-art {
+    min-height: 245px;
+    max-height: 340px;
+    margin-top: 8px;
+  }
+
+  .hero-art > :where(img, svg, picture, figure),
+  .hero-art picture img,
+  .hero-art figure img {
+    max-height: 320px;
+  }
+
+  .hero-art .main-capybara {
+    max-height: 310px;
+  }
+
+  .floating-sticker {
+    top: 5%;
+    right: -4%;
+    min-height: 35px;
+    padding: 8px 11px;
+    border-radius: 12px;
+    font-size: 0.69rem;
+  }
+
+  .floating-sticker:nth-of-type(2),
+  .floating-sticker--left {
+    bottom: 7%;
+    left: -4%;
+  }
+
+  .floating-sticker.sticker-top {
+    top: 4%;
+    right: -5%;
+    bottom: auto;
+    left: auto;
+  }
+
+  .floating-sticker.sticker-bottom {
+    top: auto;
+    right: auto;
+    bottom: 7%;
+    left: -5%;
+  }
+
+  .hero-sparkle {
+    font-size: 1.35rem;
+  }
+
+  .love-marquee {
+    margin-top: 29px;
+    padding-block: 11px;
+  }
+
+  .section {
+    margin: 72px 0;
+    scroll-margin-top: 70px;
+  }
+
+  .section-header {
+    margin-bottom: 27px;
+  }
+
+  .steps-section .section-header {
+    display: block;
+  }
+
+  .section-flower {
+    display: none;
+  }
+
+  .section-tag {
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+  }
+
+  .section-title {
+    font-size: clamp(2.06rem, 8vw, 2.7rem);
+  }
+
+  .section-subtitle {
+    font-size: 0.94rem;
+    line-height: 1.75;
+  }
+
+  .steps-grid,
+  .care-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 14px;
+  }
+
+  .care-card:last-child:nth-child(odd) {
+    grid-column: auto;
+  }
+
+  .step-card:last-child:nth-child(odd) {
+    grid-column: auto;
+  }
+
+  .step-card,
+  .care-card {
+    min-height: 0;
+    border-radius: 23px;
+  }
+
+  .step-card {
+    padding: 26px 25px;
+  }
+
+  .step-index {
+    min-height: 0;
+    margin-bottom: 14px;
+  }
+
+  .step-card .step-icon,
+  .step-card .step-number {
+    width: 47px;
+    height: 47px;
+    margin-bottom: 18px;
+  }
+
+  .care-card {
+    padding: 24px;
+  }
+
+  .routine-copy .section-title {
+    font-size: clamp(2.45rem, 9vw, 3.1rem);
+  }
+
+  .mini-capy {
+    width: 165px;
+    height: 145px;
+  }
+
+  .checklist-panel {
+    padding: 24px 20px 17px;
+    border-radius: 24px;
+  }
+
+  .checklist-panel::before {
+    right: -7px;
+    bottom: -9px;
+    left: 7px;
+  }
+
+  .checklist {
+    padding: 4px 18px;
+    border-radius: 23px;
+  }
+
+  .check-item {
+    min-height: 71px;
+    gap: 12px;
+    padding: 15px 2px;
+    font-size: 0.92rem;
+  }
+
+  .check-item input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    flex-basis: 25px;
+  }
+
+  .checklist-panel .check-item {
+    min-height: 75px;
+  }
+
+  .check-label strong {
+    font-size: 0.84rem;
+  }
+
+  .check-label small {
+    font-size: 0.7rem;
+  }
+
+  .check-emoji {
+    font-size: 1.07rem;
+  }
+
+  .source-note {
+    padding: 0 4px;
+    font-size: 0.73rem;
+  }
+
+  .love-note {
+    min-height: 310px;
+    padding: 46px 25px;
+    border-radius: 26px;
+  }
+
+  .love-note .section-title,
+  .love-note h2 {
+    font-size: clamp(2.08rem, 8vw, 2.85rem);
+  }
+
+  .love-note p {
+    font-size: 0.94rem;
+  }
+
+  .love-inner .love-signature {
+    font-size: 1.04rem;
+  }
+
+  .floating-heart.heart-a {
+    top: 7%;
+    right: 3%;
+  }
+
+  .floating-heart.heart-b {
+    bottom: 4%;
+    left: 4%;
+  }
+
+  .love-note::before,
+  .love-note::after {
+    font-size: 8rem;
+  }
+
+  .footer {
+    min-height: 95px;
+    padding-bottom: 25px;
+  }
+
+  .toast {
+    right: 16px;
+    bottom: 16px;
+    left: 16px;
+    max-width: none;
+    padding: 15px 17px;
+  }
+}
+
+@media (max-width: 390px) {
+  .topbar nav a:nth-child(n + 3),
+  .topbar .nav-links a:nth-child(n + 3) {
+    display: none;
+  }
+
+  .hero {
+    padding-inline: 19px;
+  }
+
+  .hero-title {
+    font-size: clamp(2.3rem, 10.1vw, 2.75rem);
+  }
+
+  .nav-link {
+    padding-inline: 9px;
+    font-size: 0.71rem;
+  }
+
+  .checklist-panel {
+    padding-inline: 16px;
+  }
+
+  .checklist-panel .check-item {
+    gap: 10px;
+  }
+
+  .checklist-bottom {
+    align-items: flex-start;
+  }
+
+  .hero-actions,
+  .hero .button-row,
+  .hero .actions {
+    width: 100%;
+  }
+
+  .hero-actions > :is(.primary-btn, .secondary-btn),
+  .hero .button-row > :is(.primary-btn, .secondary-btn),
+  .hero .actions > :is(.primary-btn, .secondary-btn) {
+    width: 100%;
+  }
+}

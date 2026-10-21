@@ -668,7 +668,7 @@ a:not([class]) {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  color: #a16e4d;
+  color: #885534;
   font-size: 0.73rem;
   font-weight: 800;
   letter-spacing: 0.15em;
@@ -1068,7 +1068,7 @@ a:not([class]) {
   height: 27px;
   flex: 0 0 27px;
   place-items: center;
-  border: 2px solid #c8b9a5;
+  border: 2px solid #805f43;
   border-radius: 9px;
   background: #fffefa;
   color: transparent;
@@ -1110,7 +1110,7 @@ a:not([class]) {
 }
 
 .check-label small {
-  color: #9a8779;
+  color: #765c4b;
   font-size: 0.75rem;
   font-weight: 500;
   line-height: 1.4;
@@ -1167,7 +1167,7 @@ a:not([class]) {
   max-width: 900px;
   margin: 24px auto 0;
   padding: 0 12px;
-  color: #918071;
+  color: #725a4a;
   font-size: 0.76rem;
   line-height: 1.9;
   text-align: center;
@@ -1387,7 +1387,7 @@ a:not([class]) {
 }
 
 .love-inner .section-tag {
-  color: #a46e56;
+  color: #805035;
 }
 
 .love-inner p {
@@ -1445,7 +1445,7 @@ a:not([class]) {
   gap: 12px 25px;
   padding: 24px 0 32px;
   border-top: 1px solid var(--border);
-  color: #988374;
+  color: #725a4a;
   font-size: 0.82rem;
   font-weight: 600;
   text-align: center;
